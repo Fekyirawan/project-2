@@ -18,5 +18,26 @@ Route::get('/', function () {
 });
 
 Route::get('/Home', function(){
-	return view("Home");
+	return view('Home');
 });
+
+Route::get('/akustik', function(){
+	return view('akustik');
+});
+
+Route::get('/bass', function(){
+	return view('bass');
+});
+
+Route::get('/drum', function(){
+	return view('drum');
+});
+
+Route::get('/piano', function(){
+	return view('piano');
+});
+
+Route::get('/sign', function(){
+	return view('sign');
+});
+
